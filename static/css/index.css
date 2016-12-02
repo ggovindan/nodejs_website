@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:400,200,700");
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Source Code Pro', monospace;
+}
+html .wrapper,
+body .wrapper {
+  min-height: 100%;
+  position: relative;
+}
+html .header,
+body .header {
+  background: url("../images/header.png");
+  background-position: center;
+}
+html .header .h1,
+body .header .h1 {
+  margin-top: 0;
+}
+html .header .page-title,
+body .header .page-title {
+  font-weight: 200;
+  font-size: 80px;
+  text-align: center;
+  padding: 100px;
+  text-transform: uppercase;
+  color: #fff;
+}
+html .nav,
+body .nav {
+  background: #000;
+  text-align: center;
+}
+html .nav li,
+body .nav li {
+  display: inline-block;
+}
+html .nav a,
+body .nav a {
+  display: inline-block;
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+html .nav:hover,
+body .nav:hover {
+  background-color: #3ab795;
+  text-decoration: underline;
+}
+html .main-content,
+body .main-content {
+  margin: 50px auto;
+  max-width: 600px;
+  padding-bottom: 50px;
+}
+html .main-content p,
+body .main-content p {
+  line-height: 1.6;
+  margin-bottom: 1.7em;
+}
+html .footer,
+body .footer {
+  width: 100%;
+  height: 50px;
+  border-top: 1px solid #444;
+  padding: 20px 0;
+  background: #ffab62;
+}
+html .footer p,
+body .footer p {
+  color: #444;
+  font-size: 12px;
+  text-align: center;
+}

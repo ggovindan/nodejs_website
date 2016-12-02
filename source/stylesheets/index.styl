@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:400,200,700")
+
+html
+body
+	margin 0
+	padding 0
+	height 100%
+	font-family 'Source Code Pro', monospace
+
+	.wrapper
+		min-height 100%
+		position relative
+
+	.header
+		background url('../images/header.png')
+		background-position center
+		.h1
+			margin-top 0
+
+		.page-title
+			font-weight 200
+			font-size 80px
+			text-align center
+			padding 100px
+			text-transform uppercase
+			color #fff
+
+	.nav
+		background #000
+		text-align center
+
+		li
+			display inline-block
+
+		a
+			display inline-block
+			padding 20px
+			color #fff
+			text-decoration none
+
+		&:hover
+			background-color #3AB795
+			text-decoration underline
+
+	.main-content
+		margin 50px auto
+		max-width 600px
+		padding-bottom 50px
+
+		p
+			line-height 1.6
+			margin-bottom 1.7em
+
+	.footer
+		width 100%
+		height 50px
+		border-top 1px solid #444
+		padding 20px 0
+		background #ffab62
+
+		p
+			color #444
+			font-size 12px
+			text-align center
